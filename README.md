@@ -30,9 +30,10 @@ The only challenge was Google's date and time format. 2023-05-18T22. In order to
 3. Convert 2023-05-19 to 5/19: **=TO_DATE()**
 4. Recombine date and time: **=TEXTJOIN(" ",,E2,F2)**
 
-![]()
+![](https://github.com/JonathanEdwardLee/six-day-crypto-trend/blob/main/02Screenshot%202023-05-26%20180213.jpg)
 
 # Viz #
 For this I used Google Sheets to Insert Chart and I went with a Smooth Line Chart.
+You can view my spreadsheet here: https://docs.google.com/spreadsheets/d/1Mc1yDF8g6opxI1KGmpE0KLfi8ooxQ8g3NqaWAULRhJc/edit?usp=sharing
 
-In conclusion, this project provided a simple small data set to prove my spreadsheet skills. I had fun doing it and I'm excited to explore this topic further with SQL, Tableau, and BigQuery.
+In conclusion, this project provided a simple small data set to prove i have some spreadsheet skills. I had fun doing it and I'm excited to explore this topic further with SQL, Tableau, and BigQuery.
