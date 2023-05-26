@@ -17,9 +17,9 @@ I explored various popular cryptocurrency keywords to see if I could discover so
 I settle with comparing the terms Cardano, Bitcoin, Ethereum, and XRP. Four popular cryptocurrencies. I then explored various timelines using Google's tools and discovered that the past 7 day view seemed most interesting.
 
 # Cleaning #
-I downloaded the data as a .cvs file and imported to Google Sheets
+I downloaded the data as a .csv file and imported to Google Sheets
 
-![]()
+![](https://github.com/JonathanEdwardLee/six-day-crypto-trend/blob/main/01Screenshot%202023-05-26%20180130.jpg)
 
 Deleted first two rows and cleaned up the header. I also eliminated rows that contained partial data leaving only the days I had 24 hours of data for.
 
