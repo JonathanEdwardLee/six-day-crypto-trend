@@ -1,15 +1,15 @@
 # six-day-crypto-trend
 ## Six Day Crypto Google Trends Search Analysis ##
 
-This is a personal project where I wanted to do data cleaning, analysis, and visualization all in Google Sheets.
+This is a personal project where I wanted to perform data cleaning, analysis, and visualization all with Google Sheets.
 
-I used Google Trends to explore data. My final chart revealed that over a 6 day period, the words Bitcoin, Ethereum, Cardano, and Xrp all peak in searches around 4am each day.
+I used Google Trends to explore data. My final chart revealed that over a 6 day period, within the United States, the words Bitcoin, Ethereum, Cardano, and Xrp all peak in searches around 4am each day.
 
 ![](https://docs.google.com/spreadsheets/d/e/2PACX-1vTUaWJqT1l7kvE5pSyhjFOSisfZDI1Tl16PTEs3llEi0LKLrIYZ-MXoTtaBTpFeUcjLElcRRGdCHRjJ/pubchart?oid=1743019569&format=image)
 
 *Interactive chart* https://docs.google.com/spreadsheets/d/e/2PACX-1vTUaWJqT1l7kvE5pSyhjFOSisfZDI1Tl16PTEs3llEi0LKLrIYZ-MXoTtaBTpFeUcjLElcRRGdCHRjJ/pubchart?oid=1743019569&format=interactive
 
-This sample size is not enough to come to any conclusions, but it definitely peaked my interest to dig further. I'm sharing because this is my first ever data analysis project and I wanted to clean the data myself to reproduce the visualizations (with only Google Sheets) that Google automates on their website.
+This sample size is not enough to come to any conclusions, but it definitely peaked my interest to dig further. I'm sharing because this is my first ever data analysis project and I wanted to clean the data myself to reproduce the visualizations that Google automates on their website.
 
 # Prep #
 I explored various popular cryptocurrency keywords to see if I could discover something interesting. I began by comparing ADA to BTC (Cardano to Bitcoin). This pulled incorrect data because searches for "ADA" were higher than the more popular "BTC". This is because the term "ada" relates to more than just the blockchain.
@@ -36,4 +36,4 @@ The only challenge was Google's date and time format (2023-05-18T22). In order t
 For this I used Google Sheets to Insert Chart and I went with a Smooth Line Chart.
 You can view my spreadsheet here: https://docs.google.com/spreadsheets/d/1Mc1yDF8g6opxI1KGmpE0KLfi8ooxQ8g3NqaWAULRhJc/edit?usp=sharing
 
-In conclusion, this project provided a simple small data set to prove i have some spreadsheet skills. I had fun doing it and I'm excited to explore this topic further with SQL, Tableau, and BigQuery.
+In conclusion, this project provided a simple small data set to demonstrate some of my spreadsheet skills. I had fun doing it and I'm excited to explore this topic further with SQL, Tableau, and BigQuery.
